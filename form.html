@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<h2>Contact Me</h2>
+<p>
+    I'd really like to hear from you
+</p>
+<form action="">
+<fieldset>
+    <legend>Personal Information</legend>
+    <p>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" placeholder="Last Name" autocomplete="on" required>
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password">
+    </p>
+    <p>
+        <label for="tel">Phone:</label>
+        <input type="tel" name="phone">
+    </p>
+    <p>
+        <label for="fav">Favorite Decade:</label>
+        <input type="number">
+    </p>
+    <p>
+        <label for="fav_coffee">Favorite Coffee:</label>
+        
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>What is your favorite food?</legend>
+    <input type="radio" name="fav_food">
+    <label for="taco">Tacos</label>
+    <br>
+    <br>
+    <input type="radio" name="fav_food">
+    <label for="taco">Pizza</label>
+    <br>
+    <br>
+    <input type="radio" name="fav_food">
+    <label for="taco">Other</label>
+    <br>
+    <br>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Do you have pets?</legend>
+    <input type="checkbox">
+    <label for="pets">Dog</label>
+    <br>
+    <br>
+    <input type="checkbox">
+    <label for="pets">Cat</label>
+    <br>
+    <br>
+    <input type="checkbox">
+    <label for="pets">Fish</label>
+    <br>
+    <br>
+    <input type="checkbox">
+    <label for="pets">Other</label>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Send me a Note</legend>
+    <label for="msg">Your Message:</label><br>
+    <textarea name="msg" id="" cols="30" rows="10"></textarea>
+</fieldset>
+<br>
+<input type="button" value="Submit">
+<input type="button" value="Post">
+<input type="button" value="Reset">
+</form>
+</body>
+</html>

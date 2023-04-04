@@ -1,0 +1,56 @@
+.first_story{
+    color:green;
+    text-align: center;
+    text-decoration: underline;
+}
+.first_story_sub{
+    color:pink;
+    text-align: center;
+}
+.first_story_para{
+    text-transform: capitalize;
+    line-height: 90%;
+}
+.head_story{
+    background-color: green;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+.para_story{
+    margin: 15px;
+font-weight: bold;
+}
+.para_story2{
+    margin: 15px;
+    color:lightgreen;
+    font-weight: bold;
+}
+.para_story3{
+    margin: 15px;
+    color:red;
+    font-weight: bold;
+}
+.moral{
+    margin: 15px;
+    font-weight: bold;
+}
+.Dilli{
+    text-align: left;
+    padding:0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.ram{
+    margin: 360px;
+    font-weight: bold;
+    text-align: center;
+    color:lightgreen;
+}
+.kartel{
+    margin: 250px;
+    font-weight: bold;
+    text-align: right;
+    color: red;
+}

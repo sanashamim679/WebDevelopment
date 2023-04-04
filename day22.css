@@ -1,0 +1,28 @@
+.color{
+    width:250px;
+    height: 150px;
+    background-color: rgb(84, 84, 248);
+}
+.head{
+    color:aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+.color:hover{
+    background-color: grey;
+}
+.square{
+    width:250px;
+    height: 250px;
+    background-color: grey;
+}
+.head2{
+    color:white;
+    text-align: center;
+    padding: 54px;
+}
+.square:hover{
+    border-radius: 50%;
+    width:300px;
+    height:200px;
+}

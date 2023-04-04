@@ -1,0 +1,64 @@
+.box{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    margin:auto;
+}
+@media (min-width: 320px) {
+    .box{
+        height:500px;
+        width: 500px;
+        background-color: brown;
+    }
+    
+}
+
+@media (min-width: 480px) {
+    .box{
+        height:100px;
+        width: 100px;
+        background-color: rgb(165, 163, 42);
+    }
+    
+}
+
+.head11{
+    font-size: 40px;
+}
+.head2{
+    font-size :30px;
+
+}
+.para1{
+    font-size: 14px;
+}
+.para2{
+    font-size: 20px;
+}
+
+@media (max-width:320px) {
+    .head11{
+        background-color: blue;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+}
+.assign{
+    /* padding: 34px; */
+    width:660px;
+    height:130px;
+    background-color: grey;
+    font-size:50px;
+    text-align: center;
+}
+@media (min-width:600px) {
+    .assign{
+        height:40px;
+        padding: 34px;
+        text-align: center;
+        background-color:aqua;
+        font-size:35px;
+      
+    }
+}
